@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+
 namespace PROG6221
 {
     public class TaskStorageHelper
@@ -8,8 +9,13 @@ namespace PROG6221
         {
             using var db = new AppDbContext();
             db.Tasks.Add(new DbTask { Title = title });
-            db.SaveChanges();
+            db.SaveChanges(); // Saves to SQLite
         }
-        public List<DbTask> GetTasks() { using var db = new AppDbContext(); return db.Tasks.ToList(); }
+
+        public List<DbTask> GetTasks()
+        {
+            using var db = new AppDbContext();
+            return db.Tasks.ToList(); // Fetches from SQLite
+        }
     }
 }
