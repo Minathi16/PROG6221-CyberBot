@@ -1,0 +1,56 @@
+﻿<Window x:Class="PROG6221.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cybersecurity Chat" Height="600" Width="600"
+        Background="#2C003E" Foreground="White">
+	<Grid Margin="10">
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="150"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Grid.Row="0"
+                   Text="Cybersecurity Awareness Bot"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,10"/>
+
+		<DataGrid x:Name="dgTasks" Grid.Row="1" AutoGenerateColumns="False" Margin="0,5" Background="White">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="100"/>
+				<DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"/>
+				<DataGridCheckBoxColumn Header="Done" Binding="{Binding IsComplete}" Width="50"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<TextBox x:Name="txtChat"
+                 Grid.Row="2"
+                 IsReadOnly="True"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto"
+                 TextChanged="txtChat_TextChanged"/>
+
+		<TextBox x:Name="txtInput"
+                 Grid.Row="3"
+                 Margin="0,10,0,0"
+                 TextChanged="txtInput_TextChanged"/>
+
+		<StackPanel Grid.Row="4"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,10,0,0">
+
+			<Button x:Name="btnSEND" Content="Send" Width="80" Margin="5" Click="btnSEND_Click"/>
+			<Button x:Name="btnQuiz" Content="Start Quiz" Width="100" Margin="5" Click="btnQuiz_Click"/>
+			<Button x:Name="btnActivityLog" Content="Activity Log" Width="100" Margin="5" Click="btnActivityLog_Click"/>
+
+		</StackPanel>
+
+	</Grid>
+</Window>
