@@ -11,7 +11,6 @@ namespace PROG6221
         {
             InitializeComponent();
             dgTasks.ItemsSource = _storage.GetTasks();
-            txtChat.AppendText("System Ready. Ask me about cybersecurity!\n");
         }
         private void btnSEND_Click(object sender, RoutedEventArgs e)
         {
