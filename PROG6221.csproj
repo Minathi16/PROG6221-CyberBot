@@ -9,72 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\Student\Documents\MainWindow.xaml" Link="MainWindow.xaml" />
-    <Compile Include="obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\App.g.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\App.g.i.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\MainWindow.g.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\MainWindow.g.i.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221.GlobalUsings.g.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_4yrf3u0f_wpftmp.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_4yrf3u0f_wpftmp.GlobalUsings.g.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_Content.g.i.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_krbhecmz_wpftmp.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_krbhecmz_wpftmp.GlobalUsings.g.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.GlobalUsings.g.cs" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\net8.0-windows\PROG6221.deps.json" />
-    <Content Include="bin\Debug\net8.0-windows\PROG6221.runtimeconfig.json" />
-    <Content Include="obj\Debug\net8.0-windows\PROG6221.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\net8.0-windows\PROG6221.designer.deps.json" />
-    <Content Include="obj\Debug\net8.0-windows\PROG6221.designer.runtimeconfig.json" />
-    <Content Include="obj\PROG6221.csproj.nuget.dgspec.json" />
-    <Content Include="obj\PROG6221_4yrf3u0f_wpftmp.csproj.nuget.dgspec.json" />
-    <Content Include="obj\PROG6221_krbhecmz_wpftmp.csproj.nuget.dgspec.json" />
-    <Content Include="obj\project.assets.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="bin\Debug\net8.0-windows\PROG6221.dll" />
-    <None Include="bin\Debug\net8.0-windows\PROG6221.exe" />
-    <None Include="bin\Debug\net8.0-windows\PROG6221.pdb" />
-    <None Include="obj\Debug\net8.0-windows\apphost.exe" />
-    <None Include="obj\Debug\net8.0-windows\MainWindow.baml" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.assets.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.csproj.BuildWithSkipAnalyzers" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.dll" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.g.resources" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.genruntimeconfig.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221.pdb" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_4yrf3u0f_wpftmp.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_4yrf3u0f_wpftmp.assets.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_4yrf3u0f_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_krbhecmz_wpftmp.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_krbhecmz_wpftmp.assets.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_krbhecmz_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_MarkupCompile.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_MarkupCompile.i.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.assets.cache" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.csproj.BuildWithSkipAnalyzers" />
-    <None Include="obj\Debug\net8.0-windows\PROG6221_u24fcu3e_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net8.0-windows\refint\PROG6221.dll" />
-    <None Include="obj\Debug\net8.0-windows\ref\PROG6221.dll" />
-    <None Include="obj\PROG6221.csproj.nuget.g.props" />
-    <None Include="obj\PROG6221.csproj.nuget.g.targets" />
-    <None Include="obj\PROG6221_4yrf3u0f_wpftmp.csproj.nuget.g.props" />
-    <None Include="obj\PROG6221_4yrf3u0f_wpftmp.csproj.nuget.g.targets" />
-    <None Include="obj\PROG6221_krbhecmz_wpftmp.csproj.nuget.g.props" />
-    <None Include="obj\PROG6221_krbhecmz_wpftmp.csproj.nuget.g.targets" />
-    <None Include="obj\project.nuget.cache" />
-    <None Include="PROG6221.sln" />
+    <ApplicationDefinition Include="App.xaml" />
+    <Page Include="MainWindow.xaml" />
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="DatabaseModels.cs" />
+    <Compile Include="TaskStorageHelper.cs" />
   </ItemGroup>
 
 </Project>
