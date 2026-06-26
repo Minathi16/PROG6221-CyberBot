@@ -1,9 +1,5 @@
 name: .NET Core Desktop
-
-on:
-  push:
-    branches: [ "main" ]
-
+on: [push]
 jobs:
   build:
     runs-on: windows-latest
@@ -13,7 +9,5 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Restore dependencies
-      run: dotnet restore PROG6221.sln
     - name: Build
-      run: dotnet build PROG6221.sln --configuration Release --no-restore
+      run: dotnet build PROG6221.sln --configuration Release
